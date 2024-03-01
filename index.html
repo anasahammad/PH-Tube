@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ph Tube</title>
+
+    <!-- Daisy Ui and Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+
+    <!-- header navbar -->
+    <div class="navbar bg-base-100 container mx-auto">
+        <div class="navbar-start">
+            <div>
+                <img src="images/Group 26.svg" alt="">
+                
+            </div>
+        </div>
+
+       
+        <div class="navbar-center">
+          <button id="sort-btn" class="btn btn-ghost text-[16px]">Sort by view</button>
+        </div>
+        <div class="navbar-end">
+            <button class="btn btn-error text-white">Blog</button>
+
+        </div>
+      </div>
+    <!-- header navbar End-->
+    <div class="divider divider-start container mx-auto"></div>
+    <!-- divider add -->
+    <div id="button-group" class="flex container gap-4 mx-auto justify-center items-center">
+
+    </div>
+
+    <section class="mt-12">
+        <div id="error-element" class="mt-24 hidden">
+            <img class="mx-auto" src="images/fi_5301987.png" alt="">
+            <h1 class="text-4xl font-bold mt-3 text-[#171717]  text-center">Oops!! Sorry, There is no <br>
+                 content here </h1>
+        </div>
+    </section>
+    <!-- video area -->
+    <div id="video-container" class="grid grid-cols md:grid-cols-4 gap-4 container mx-auto">
+        <!-- <figure><img src="${video.thumbnail}" alt="Shoes" /></figure>
+        <div class='mt-3'>
+         
+          <div class="flex justify-around items-center">
+          <div class="avatar online placeholder">
+          <div class="bg-neutral text-neutral-content rounded-full w-16">
+          <img src="${video.authors[0].profile_picture}" />
+    
+          </div>
+        </div>
+         <div>
+                <h1 class="card-title">${video.title}</h1>
+                <div class='flex'><p>${video.authors[0].profile_name} </p> ${verifiedIcon} </div>
+                <p>${video.others.views}</p>
+            </div>
+        </div> -->
+        
+        </div>
+    </div>
+   <!-- Add this HTML where you want to display the "No Data Found" text -->
+
+
+ <script src="app.js"></script>
+</body>
+</html>
